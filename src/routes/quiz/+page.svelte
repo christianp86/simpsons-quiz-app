@@ -38,7 +38,7 @@
     
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
     const wrongAnswers = remainingOptions.filter(option => option !== correctAnswer);
-    const answersToRemove = Math.floor(wrongAnswers.length / 2);
+    const answersToRemove = Math.floor(questions[currentQuestionIndex].options.length / 2);
     
     for (let i = 0; i < answersToRemove; i++) {
       const randomIndex = Math.floor(Math.random() * wrongAnswers.length);
