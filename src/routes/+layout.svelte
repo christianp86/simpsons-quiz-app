@@ -12,7 +12,10 @@
 
 	<footer>
 		<p>
-			visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to learn about SvelteKit
+			generated with <a href="https://bolt.new" target="_blank">bolt.new</a>
+		</p>
+		<p>
+			visit <a href="https://svelte.dev/docs/kit" target="_blank">svelte.dev/docs/kit</a> to learn about SvelteKit
 		</p>
 	</footer>
 </div>
