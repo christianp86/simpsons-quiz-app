@@ -25,4 +25,4 @@ export const decoders = Object.fromEntries(Object.entries(hooks.transport).map((
 
 export const decode = (type, value) => decoders[type](value);
 
-export { default as root } from '../root.svelte';
+export { default as root } from '../root.js';
