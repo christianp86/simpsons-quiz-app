@@ -1,6 +1,6 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import { questions } from '$lib/questions';
+  import { questions } from '$lib/questions/index';
   import type { Player } from '$lib/types';
   import { goto } from '$app/navigation';
   
